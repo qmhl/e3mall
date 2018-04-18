@@ -1,8 +1,9 @@
 package com.e3mall.common.pojo;
 
 public class User {
-
+    //姓名
     private String name;
+    //性别
     private String sex;
 
     public String getName() {
