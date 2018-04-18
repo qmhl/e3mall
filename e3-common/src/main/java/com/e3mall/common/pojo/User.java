@@ -5,6 +5,8 @@ public class User {
     private String name;
     //性别
     private String sex;
+    //年龄
+    private String age;
 
     public String getName() {
         return name;
@@ -20,5 +22,14 @@ public class User {
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }
