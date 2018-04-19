@@ -36,11 +36,11 @@ public class User {
     }
     
     
-     public String getNum() {
+     public int getNum() {
         return num;
     }
 
-    public void setNum(String num) {
+    public void setNum(int num) {
         this.num = num;
     }
 }
