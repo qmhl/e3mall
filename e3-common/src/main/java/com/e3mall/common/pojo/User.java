@@ -9,6 +9,8 @@ public class User {
     private String age;
     //数量
     private int num;
+    //密码
+    private String password;
     
     public String getName() {
         return name;
@@ -42,5 +44,13 @@ public class User {
 
     public void setNum(int num) {
         this.num = num;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
