@@ -7,7 +7,9 @@ public class User {
     private String sex;
     //年龄
     private String age;
-
+    //数量
+    private int num;
+    
     public String getName() {
         return name;
     }
@@ -31,5 +33,14 @@ public class User {
 
     public void setAge(String age) {
         this.age = age;
+    }
+    
+    
+     public String getNum() {
+        return num;
+    }
+
+    public void setNum(String num) {
+        this.num = num;
     }
 }
